@@ -67,7 +67,6 @@ header {
 }
 
 div {
-  border: 1px solid black;
   display: block;
 }
 
@@ -80,26 +79,25 @@ div {
 
 
 .story {
-  /*  Had the next 3 in as they had appeared when we did an Inspect
    display: flex;
-    flex-direction: column;
-    width: 300px; */
+   flex-direction: column;
+   width: 300px;
 }
 
 .stories {
-  /* display: flex; taking this out gave us the full width of the pic */
+  display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
 
 .stories .text-content {
-  height: 140px;
+  height: 250px;
 }
 
 .image-content {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
+  /*display: flex;  these are crossed off in Inspect for Task #5
+  flex-direction: column;
+  justify-content: center; */
   font-weight: bold;
   font-size: 30px;
   color: white;
