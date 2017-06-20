@@ -95,9 +95,9 @@ div {
 }
 
 .image-content {
-  /*display: flex;  these are crossed off in Inspect for Task #5
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
   font-weight: bold;
   font-size: 30px;
   color: white;
@@ -113,6 +113,10 @@ div {
   font-size: 40px;
   text-align: left;
   font-family: Georgia;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
 }
 
 .pop-culture.image-content {
@@ -134,8 +138,9 @@ div {
 
 h2 {
   display: block;
-  font-size: 1.5em;
+  font-size: 30px;
   font-weight: bold;
+  font-style: normal;
 }
 
 h3 {
@@ -176,4 +181,31 @@ h3 {
 .column.small h3 {
   text-align: center;
   padding-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.info nav {
+  display: inline-block;
+  padding-left: 30px;
 }
