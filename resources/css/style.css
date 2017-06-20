@@ -1,4 +1,4 @@
-/* Universal Styles */
+/* Header Content */
 
 body {
   font-family: Helvetica;
@@ -31,9 +31,6 @@ nav span {
   align-items: center;
 }
 
-  /* display: inline-flex;
-  align-items: center; */
-
 header {
   display: flex;
   font-family: Verdana;
@@ -45,7 +42,34 @@ header {
   padding-bottom: 5px;
   justify-content: space-between;
   position: fixed;
-  z-index: 5;
-  /* height: 50px; */
-  /* padding: 10px; change 3 - added padding */
+  z-index: 10;
+  background-color: whitesmoke;
+  }
+
+  /* Content Section */
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+  /* First News Column */
+
+.column.large {
+  width: 630px;
+}
+
+/* .column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+} */
+
+.lead-story {
+
+}
+
+.image-content {
+
 }
