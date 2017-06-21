@@ -11,6 +11,7 @@ h4 {
   display: inline-block;
   padding-left: 10px;
 }
+
 a {
   color: black;
 }
@@ -19,7 +20,6 @@ a {
   padding-top: 15px;
   padding-right: 20px;
 }
-
 
 nav span {
   display: inline-block;
@@ -50,12 +50,6 @@ header {
 
   /* Content Section */
 
-  /* The text for each story should have the following CSS styles:
-  font-family: Georgia;
-  font-size: 17px;
-  color: black; */
-
-
 .content {
   display: flex;
   width: 1232px;
@@ -75,8 +69,6 @@ div {
   p {
     display: block;
   }
-
-
 
 .story {
    display: flex;
@@ -150,7 +142,6 @@ h3 {
 }
 
 .news-bites .bite {
-  /* Take out space between bites and .bite if not working */
   display: block;
   padding: 11px 20px;
   border-bottom: 1px solid black;
@@ -195,6 +186,7 @@ footer {
   font-family: Verdana;
   font-size: 12px;
 }
+
 footer .title {
   display: inline-block;
   padding-right: 25px;
